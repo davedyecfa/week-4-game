@@ -1,0 +1,83 @@
+body {
+    background: url("../images/swirl_pattern.png");
+}
+
+.header-container{
+    background-color: orange;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+
+h1 {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 38px;
+    text-align: center;
+    padding: 40px;
+}
+
+.instructions-container {
+    height: 230px;
+    background-color: lightblue;
+    margin-bottom: 1%;
+    margin-left: 3%;
+
+    
+}
+
+.target-score-div {
+    height: 100px;
+    background-color: darkmagenta;
+    margin-bottom: 1%;
+    margin-left: 3%;
+       
+}
+
+#scoreboard-div {
+    height: 100px;
+
+    background-color: lightgrey;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+#button-1 {
+    background: url("../images/aramaki.jpg");
+    background-size: 100%;
+}
+
+#button-2 {
+    background: url("../images/batou.jpg");
+    background-size: 100%;
+}
+
+#button-3 {
+    background: url("../images/ishikawa.jpg");
+    background-size: 100%;
+}
+
+#button-4 {
+    background: url("../images/togusa.jpg");
+    background-size: 100%;
+}
+
+.total-score-text {
+    background-color: green;
+    margin-top: 1%;
+    height: 20px;
+    text-align: center;
+    color: white;
+    margin-left: 3%;
+    margin-bottom: 1%;
+
+}
+
+.user-score-container {
+    background-color: white;
+    margin-left: 3%;
+    height: 100px;
+    text-align: center;
+    font-size: xx-large
+
+
+}

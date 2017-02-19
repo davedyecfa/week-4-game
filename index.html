@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Character Palace</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-4 header-container">
+            <h1>Character Palace!</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 instructions-container">
+
+            <p><br> You will be given a random number at the start of the game
+                <br>
+                <br> There are four Characters below. By clicking on the Character you will add a specific amount of points to
+                your total score.
+                <br>
+                <br> You win the game by matching your total score to random number, you lose the game if your total score
+                goes above the random number.
+                <br>
+                <br> The value of each Character is hidden from you until you click on it
+                <br>
+                <br> Each time the game starts, the game will change the values of each Character
+            </p>
+
+        </div>
+    </div>
+    <div class='row'>
+        <div class="col-md-2 target-score-div">
+            <div id='target-score'></div>
+        </div>
+
+        <div class='col-md-2' id='scoreboard-div'>
+        </div>
+
+    </div class= 'row'>
+    <div class="panel-body">
+                            <button id="button-1" class="Character-image" value="1"><h1></h1></button>
+                            <button id="button-2" class="Character-image" value="2"><h1></h1></button>
+                            <button id="button-3" class="Character-image" value="3"><h1></h1></button>
+                            <button id="button-4" class="Character-image" value="4"><h1></h1></button>
+    <div class="row">
+    
+    <div class='col-md-4 total-score-text' id='total-score-text'>Your Total Score Is: </div>
+    </div>
+    <div class="row">
+    <div class= 'col-md-4 user-score-container' id='user-score'>0</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        <script type= "text/javascript" src= "assets/javascript/game.js" >
+    </script>
+
+
+    </script>
+</body>
+
+</html>
