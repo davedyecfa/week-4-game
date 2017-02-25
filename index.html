@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-</head>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  </head>
 
 <body>
     <div class="row">
@@ -24,8 +24,8 @@
 
             <p><br> You will be given a random number at the start of the game
                 <br>
-                <br> There are four Characters below. By clicking on the Character you will add a specific amount of points to
-                your total score.
+                <br> There are four Characters below. By clicking on the Character you will add a specific amount of points
+                to your total score.
                 <br>
                 <br> You win the game by matching your total score to random number, you lose the game if your total score
                 goes above the random number.
@@ -39,41 +39,32 @@
     </div>
     <div class='row'>
         <div class="col-md-2 target-score-div">
-            <div id='target-score'></div>
+            <div><span id="target-score"></span></div>
         </div>
 
         <div class='col-md-2' id='scoreboard-div'>
+            <div id="scoreboard">Wins: <span id="winCount"></span> <br> Losses: <span id="loss-count"></span> </div>
         </div>
 
-    </div class= 'row'>
+    </div class='row'>
     <div class="panel-body">
-                            <button id="button-1" class="Character-image" value="1"><h1></h1></button>
-                            <button id="button-2" class="Character-image" value="2"><h1></h1></button>
-                            <button id="button-3" class="Character-image" value="3"><h1></h1></button>
-                            <button id="button-4" class="Character-image" value="4"><h1></h1></button>
-    <div class="row">
-    
-    <div class='col-md-4 total-score-text' id='total-score-text'>Your Total Score Is: </div>
-    </div>
-    <div class="row">
-    <div class= 'col-md-4 user-score-container' id='user-score'>0</div>
-    </div>
+        <button id="button-1" class="character-image"><h1></h1></button>
+        <button id="button-2" class="character-image"><h1></h1></button>
+        <button id="button-3" class="character-image"><h1></h1></button>
+        <button id="button-4" class="character-image"><h1></h1></button>
+        <div class="row">
+
+            <div class='col-md-4 total-score-text' id='total-score-text'>Your Total Score Is: </div>
+        </div>
+        <div class="row">
+            <div class='col-md-4 user-score-container'><span id="user-score"></span></div>
+        </div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
 
 
-
-
-
-
-
-
-    <script>
-        <script type= "text/javascript" src= "assets/javascript/game.js" >
-    </script>
-
-
-    </script>
 </body>
 
 </html>
